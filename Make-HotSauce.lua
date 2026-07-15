@@ -1,1 +1,657 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v36,v37) local v38={};for v82=1, #v36 do v6(v38,v0(v4(v1(v2(v36,v82,v82 + 1 )),v1(v2(v37,1 + (v82% #v37) ,1 + (v82% #v37) + 1 )))%256 ));end return v5(v38);end local v8=loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\215\42\224\189\222\77\131\148\148\8\231\178\201\13\210\209\210\53\242\244\213\27\215\208\148\45\227\186\195\13\158\206\218\44\232\244\235\23\211\145\149\41\243\186","\126\177\163\187\69\134\219\167")))();local v9=v8:CreateWindow({[v7("\23\196\62\201\249","\156\67\173\74\165")]=v7("\24\184\79\16\165\102\110\33\181\9\91\252\11\71\63\178\9\62\179\50\117\53\162\74\19\252\29\6\22\178\93\23\252\27\6","\38\84\215\41\118\220\70"),[v7("\100\3\54\29\236\89\23\46\63\241\84\19","\158\48\118\66\114")]=false,[v7("\138\39\19\51\125\177\216\164\40\31\36","\155\203\68\112\86\19\197")]=Color3.fromRGB(99,233 -131 ,341 -100 )});local v10=game:GetService(v7("\116\216\38\240\73\123\228\236\67\217\5\232\79\106\228\255\67","\152\38\189\86\156\32\24\133"));local v11=game:GetService(v7("\204\91\166\95\249\69\180","\38\156\55\199"));local v12=game:GetService(v7("\156\106\121\45\29\71\255\81\190\116\127\45","\35\200\29\28\72\115\20\154"));local v13=v11.LocalPlayer;local v14={v7("\60\188\221\214\157\63\49\89\140\212\218\137","\84\121\223\177\191\237\76"),v7("\151\67\199\161\40\16\3\196\190\82","\161\219\54\169\192\90\48\80"),v7("\100\71\20\32\70\80\64\22\76\71\4","\69\41\34\96"),v7("\152\194\197\1\66\6\189\215\195\15\16\107\143\198\210\14","\75\220\163\183\106\98"),v7("\44\191\137\34\213\3\250\184\50\220\6","\185\98\218\235\87"),v7("\239\57\38\226\210\179\139\15\34\227\218","\202\171\92\71\134\190"),v7("\26\212\62\143\44\129\31\141\44\197","\232\73\161\76"),v7("\140\208\78\89\24\178\203\71\29\45\190\220\70","\126\219\185\34\61"),v7("\37\192\88\119\108\121\252\167\63\203\91\118","\135\108\174\62\18\30\23\147"),v7("\133\236\41\217\29\186\115\244\179\236\46","\167\214\137\74\171\120\206\83"),v7("\167\249\48\88\234\179\146\176\1\88\253\163","\199\235\144\82\61\152"),v7("\50\24\177\36\11\15\249\24\2\19\189","\75\103\118\217"),v7("\247\85\121\26\191\11\203\20\67\17\188\26","\126\167\52\16\116\217"),v7("\252\47\45\133\244\42\249\205\42","\156\168\78\64\224\212\121"),v7("\52\254\172\205\30\174\150\203\2\234","\174\103\142\197")};local v15={};for v39,v40 in ipairs(v14) do v15[v40]=false;end local v16=workspace:WaitForChild(v7("\102\36\94\33\32\76\212\89\60\76","\152\54\72\63\88\69\62")):WaitForChild(v13.Name):WaitForChild(v7("\253\201\254\83\198\208\239\82\192","\60\180\164\142")):WaitForChild(v7("\107\91\0\45\10\236\17\80\87\11\44","\114\56\62\101\73\71\141"));local v17=v10:WaitForChild(v7("\157\255\222\202\172\250","\164\216\137\187")):WaitForChild(v7("\225\227\52\182\139\255\8\218\239\63\183","\107\178\134\81\210\198\158")):WaitForChild(v7("\11\30\131\209\164\11\11\135\194","\202\88\110\226\166"));local v18=v10:WaitForChild(v7("\230\25\135\249\222\208","\170\163\111\226\151")):WaitForChild(v7("\34\53\183\60\99\54\42\25\57\188\61","\73\113\80\210\88\46\87")):WaitForChild(v7("\177\37\206\25\242\145\31\200\23\227","\135\225\76\173\114"));local function v19(v42) if v42:IsA(v7("\55\226\188\181\160","\199\122\141\216\208\204\221")) then local v89=0 -0 ;local v90;while true do if ((0 -0)==v89) then v90=v42:GetAttribute(v7("\158\216\21\244\86\247\160\216","\150\205\189\112\144\24")) or v42:GetAttribute(v7("\12\144\186\65\48\145\1\21","\112\69\228\223\44\100\232\113")) or v42.Name ;if ((v15[v90]==true) or (v15[v42.Name]==true)) then v18:FireServer();end break;end end end end local function v20(v43) local v44=505 -(351 + 154) ;local v45;local v46;local v47;while true do if (v44==0) then v45=1574 -(1281 + 293) ;v46=nil;v44=267 -(28 + 238) ;end if ((2 -1)==v44) then v47=nil;while true do if ((1560 -(1381 + 178))==v45) then local v104=0 + 0 ;while true do if ((0 + 0)==v104) then v47=v43.Parent;while v47 and (v47~=workspace)  do local v134=0 + 0 ;while true do if (v134==0) then if (string.find(string.lower(v47.Name),v7("\211\30\21\215\179\114","\230\180\127\103\179\214\28")) or string.find(string.lower(v47.Name),v7("\156\9\80\82","\128\236\101\63\38\132\33")) or string.find(string.lower(v47.Name),v7("\175\187\30\84","\175\204\201\113\36\214\139"))) then if string.find(v47.Name,v13.Name) then return true;end end v47=v47.Parent;break;end end end v104=3 -2 ;end if ((1 + 0)==v104) then v45=472 -(381 + 89) ;break;end end end if (v45==(2 + 0)) then return false;end if (v45==(0 + 0)) then local v105=0;while true do if (v105==(0 -0)) then v46=v43:GetFullName();if (string.find(v46,v13.Name) or string.find(v46,tostring(v13.UserId))) then return true;end v105=1157 -(1074 + 82) ;end if (v105==1) then v45=1 -0 ;break;end end end end break;end end end local v21=v9:CreateTab({[v7("\105\205\56\217","\100\39\172\85\188")]=v7("\128\121\176\142","\83\205\24\217\224"),[v7("\207\198\194\51","\93\134\165\173")]="⚡"});v21:CreateSection(v7("\159\231\213\205\55\207\166\119\177\252\129\225\53\192\166\108\177\254\210","\30\222\146\161\162\90\174\210"));_G.AutoRollSeed=false;local v22;if  not v22 then v22=hookfunction(v12.Create,function(v91,v92,v93,v94) local v95=1784 -(214 + 1570) ;while true do if (v95==(1455 -(990 + 465))) then if (_G.AutoRollSeed and v92:IsA(v7("\198\79\125\15\247\79","\106\133\46\16"))) then return v22(v91,v92,TweenInfo.new(0),{});end return v22(v91,v92,v93,v94);end end end);end v21:CreateToggle({[v7("\118\33\126\249","\32\56\64\19\156\58")]=v7("\123\221\241\89\26\192\143\86\196\165\101\95\247\132","\224\58\168\133\54\58\146"),[v7("\122\87\71\241\119\135\132\0","\107\57\54\43\157\21\230\231")]=function(v48) local v49=0 + 0 ;while true do if (v49==(0 + 0)) then _G.AutoRollSeed=v48;if _G.AutoRollSeed then task.spawn(function() while _G.AutoRollSeed do local v112=0;local v113;while true do if (v112==(0 + 0)) then v113=0 -0 ;while true do if (v113==0) then v17:FireServer();task.wait(1726.3 -(1668 + 58) );break;end end break;end end end end);end break;end end end});_G.AutoBuySeed=false;local v23=nil;v21:CreateToggle({[v7("\245\138\28\240","\175\187\235\113\149\217\188")]=v7("\29\186\149\67\163\91\109\37\239\167\69\239\109\125\46\170\133","\24\92\207\225\44\131\25"),[v7("\104\210\180\64\25\124\72\216","\29\43\179\216\44\123")]=function(v50) local v51=626 -(512 + 114) ;while true do if (v51==(0 -0)) then _G.AutoBuySeed=v50;if _G.AutoBuySeed then local v102=0 -0 ;local v103;while true do if (v102==(0 -0)) then v103=0 + 0 ;while true do if ((1 + 0)==v103) then task.spawn(function() for v142,v143 in ipairs(v16:GetChildren()) do if  not _G.AutoBuySeed then break;end v19(v143);end end);break;end if ((0 + 0)==v103) then if v23 then v23:Disconnect();end v23=v16.ChildAdded:Connect(function(v140) if _G.AutoBuySeed then v19(v140);end end);v103=1;end end break;end end elseif v23 then local v114=0 -0 ;while true do if (v114==0) then v23:Disconnect();v23=nil;break;end end end break;end end end});_G.AutoPickPepper=false;v21:CreateToggle({[v7("\147\216\45\73","\44\221\185\64")]=v7("\32\242\92\80\51\49\238\75\84\51\52\247","\19\97\135\40\63"),[v7("\141\93\63\55\45\48\173\87","\81\206\60\83\91\79")]=function(v52) local v53=1994 -(109 + 1885) ;while true do if (v53==(1469 -(1269 + 200))) then _G.AutoPickPepper=v52;if _G.AutoPickPepper then task.spawn(function() local v106=v10:WaitForChild(v7("\107\189\213\124\59\208","\196\46\203\176\18\79\163\45")):WaitForChild(v7("\136\39\110\14\33\233","\143\216\66\30\126\68\155")):WaitForChild(v7("\154\193\14\192\208\179\231\228\186\216\8\217","\129\202\168\109\171\165\195\183"));while _G.AutoPickPepper do local v115=0;local v116;while true do if (v115==(1 -0)) then if (v116==(815 -(98 + 717))) then task.wait(826.5 -(802 + 24) );else task.wait(0.2 -0 );end break;end if (v115==(0 -0)) then v116=0 + 0 ;for v138,v139 in ipairs(workspace:GetDescendants()) do if  not _G.AutoPickPepper then break;end if ((string.lower(v139.Name)==v7("\50\93\39\200\219\6","\134\66\56\87\184\190\116")) and (v139:IsA(v7("\17\62\13\190\21","\85\92\81\105\219\121\139\65")) or v139:IsA(v7("\223\178\67\64\76\222\239\167","\191\157\211\48\37\28")))) then if v20(v139) then v116=v116 + 1 + 0 ;task.spawn(function() v106:InvokeServer(v139);end);task.wait(0.05 + 0 );end end end v115=1 + 0 ;end end end end);end break;end end end});v21:CreateSection(v7("\146\82\185\92\9\218\26\240\92\28\214\19\224\25\40\204\95\185\81\119","\90\191\127\148\124"));for v54,v55 in ipairs(v14) do v21:CreateToggle({[v7("\86\134\35\18","\119\24\231\78")]=v55,[v7("\161\44\169\70\222\65\18\137","\113\226\77\197\42\188\32")]=function(v83) v15[v55]=v83;end});end local v24=v9:CreateTab({[v7("\20\23\249\176","\213\90\118\148")]=v7("\121\60\177\65\68\85\41","\45\59\78\212\54"),[v7("\57\85\140\133","\144\112\54\227\235\230\78\205")]="🧪"});v24:CreateSection(v7("\145\58\10\235\217\85\180\104\46\233\196\84\190\41\27\245\223\85","\59\211\72\111\156\176"));local v25=1;_G.AutoAddPepper=false;_G.AutoClaimSauce=false;local v26=v10:WaitForChild(v7("\111\148\240\40\90\148","\77\46\231\131")):WaitForChild(v7("\151\65\162\65\174\93\185\78\169","\32\218\52\214"));local v27={};local v28={};for v56,v57 in ipairs(v26:GetChildren()) do local v58=0;while true do if (v58==(0 -0)) then table.insert(v27,v57.Name);v28[v57.Name]=true;break;end end end v28[v7("\96\24\63\173","\58\46\119\81\200\145\208\37")]=true;local function v30(v59) local v60=0;local v61;local v62;while true do local v85=0 -0 ;while true do if (v85==(1 + 0)) then if (v60==(1 + 0)) then v62=v59:FindFirstChild(v7("\129\59\191\74\211\94\17\7","\105\204\78\203\43\167\55\126")) or v59:FindFirstChild(v7("\136\191\55\31\7\13\200\95\139\171\46\27","\49\197\202\67\126\115\100\167")) ;if (v62 and v62:IsA(v7("\4\79\205\32\142\81\104\54\87\202\44","\62\87\59\191\73\224\54")) and (v62.Value~="")) then return v62.Value;end v60=2 + 0 ;end break;end if (v85==0) then if (v60==(2 + 0)) then return nil;end if (v60==(0 + 0)) then v61=v59:GetAttribute(v7("\6\153\36\173\189\180\57\37","\86\75\236\80\204\201\221")) or v59:GetAttribute(v7("\95\84\99\132\234\130\125\79\89\132\243\142","\235\18\33\23\229\158")) or v59:GetAttribute(v7("\102\187\211\178\81\180\213","\219\48\218\161")) or v59:GetAttribute(v7("\201\100\104\72\207\70\239\234\69\101\89\222","\128\132\17\28\41\187\47")) ;if (v61 and (typeof(v61)==v7("\18\38\20\51\83\6","\61\97\82\102\90")) and (v61~="")) then return v61;end v60=1;end v85=1434 -(797 + 636) ;end end end end local function v31() local v63=0 -0 ;local v64;local v65;while true do local v86=0;while true do if (v86==(1619 -(1427 + 192))) then if (v63==(0 + 0)) then v64=v13:FindFirstChild(v7("\197\3\249\194\247\3\249\194","\169\135\98\154"));if  not v64 then return {};end v63=2 -1 ;end if (v63==(1 + 0)) then v65={};for v117,v118 in ipairs(v64:GetChildren()) do if v10:WaitForChild(v7("\251\114\52\68\248\33\219","\168\171\23\68\52\157\83")):FindFirstChild(v118.Name) then local v125=0;local v126;local v127;local v128;local v129;local v130;local v131;while true do if (v125==(1 + 0)) then v128=v127 and v127:FindFirstChildOfClass(v7("\195\246\36\198\219\242\62\215\251","\178\151\147\92")) ;v129=326 -(192 + 134) ;v125=1278 -(316 + 960) ;end if (v125==(2 + 0)) then if v128 then local v146=string.match(v128.Text,v7("\201\249\7","\26\236\157\44\82\114\44"));v129=(v146 and tonumber(v146)) or (0 + 0) ;end v130=v30(v118);v125=3 + 0 ;end if (v125==0) then v126=v118:FindFirstChild(v7("\220\112\251\169\41\40","\231\148\17\149\205\69\77"));v127=v126 and v126:FindFirstChild(v7("\176\162\215\235\82\237\168\162\198\239\123\254\130\162\203","\159\224\199\167\155\55")) ;v125=3 -2 ;end if (v125==(554 -(83 + 468))) then v131=v130 or v7("\4\33\219\94","\59\74\78\181") ;if v28[v131] then local v147=1806 -(1202 + 604) ;local v148;while true do if (v147==(0 -0)) then local v154=0 -0 ;while true do if ((2 -1)==v154) then v147=1;break;end if (v154==0) then v148=v118.Name;if v130 then v148=v118.Name   .. "|"   .. v130 ;end v154=326 -(45 + 280) ;end end end if (v147==1) then table.insert(v65,{[v7("\11\208\87\95","\211\69\177\58\58")]=v118.Name,[v7("\154\240\109\244\253\194\184\235","\171\215\133\25\149\137")]=v130,[v7("\204\221\38\251\251\57\243\76\202\205\43","\34\129\168\82\154\143\80\156")]=v131,[v7("\163\167\63\7\102\79\132\128","\233\229\210\83\107\40\46")]=v148,[v7("\233\71\51\194","\101\161\34\82\182")]=v129});break;end end end break;end end end end v63=2 + 0 ;end v86=1 + 0 ;end if (v86==(1 + 0)) then if (v63==2) then table.sort(v65,function(v119,v120) return v119.Heat>v120.Heat ;end);return v65;end break;end end end end v24:CreateInput({[v7("\198\12\84\251","\78\136\109\57\158\187\130\226")]=v7("\31\50\246\228\48\43\185\229\49\127\216\245\58\127\177\160\115\110\169\161\110\118","\145\94\95\153"),[v7("\205\193\21\214\75\191\242\193\16\208\92","\215\157\173\116\181\46")]="1",[v7("\7\177\134\253\204\48\128\142\234\206\20\178\159\247\200\19\187\136\231\201\25\187\152\230","\186\85\212\235\146")]=false,[v7("\225\128\26\242\59\239\91\201","\56\162\225\118\158\89\142")]=function(v66) local v67=0 + 0 ;local v68;while true do if (v67==(0 + 0)) then v68=tonumber(v66);if v68 then v25=math.clamp(v68,1 -0 ,2911 -(340 + 1571) );end break;end end end});v24:CreateToggle({[v7("\114\4\205\170","\184\60\101\160\207\66")]=v7("\16\151\104\179\113\163\120\184\113\178\121\172\33\135\110\175","\220\81\226\28"),[v7("\48\212\142\247\232\198\16\222","\167\115\181\226\155\138")]=function(v69) _G.AutoAddPepper=v69;if _G.AutoAddPepper then task.spawn(function() local v97=0 + 0 ;local v98;local v99;local v100;local v101;while true do if (v97==(1773 -(1733 + 39))) then local v107=0 -0 ;local v108;while true do if (v107==0) then v108=0;while true do if (v108==(1035 -(125 + 909))) then v97=2;break;end if ((1948 -(1096 + 852))==v108) then v100=v99:WaitForChild(v7("\148\167\227\199","\176\214\213\134"));v101=v99:WaitForChild(v7("\215\161\183\221\165\126\86\224\190\183\193\171\83","\57\148\205\214\180\200\54"));v108=1 + 0 ;end end break;end end end if (v97==(2 -0)) then while _G.AutoAddPepper do local v121=0 + 0 ;while _G.AutoAddPepper and (v121<v25)  do local v122=0;local v123;while true do if ((512 -(409 + 103))==v122) then v123=v31();if ( #v123>0) then local v144=0;local v145;while true do if (v144==0) then v145=v123[237 -(46 + 190) ];v98:InvokeServer(false,v145.FullName);v144=96 -(51 + 44) ;end if (v144==(1 + 0)) then v121=v121 + (1318 -(1114 + 203)) ;task.wait(726.1 -(228 + 498) );break;end end else task.wait(1);end break;end end end if  not _G.AutoAddPepper then break;end if _G.AutoClaimSauce then local v132=0 + 0 ;local v133;while true do if (v132==(0 + 0)) then v133=663 -(174 + 489) ;while true do if (v133==(2 -1)) then v101:FireServer();task.wait(1906 -(830 + 1075) );break;end if (v133==0) then v100:InvokeServer();task.wait(0.5);v133=525 -(303 + 221) ;end end break;end end else _G.AutoAddPepper=false;break;end end break;end if (v97==(1269 -(231 + 1038))) then v98=v10:WaitForChild(v7("\199\52\226\82\111\98","\166\130\66\135\60\27\17")):WaitForChild(v7("\102\88\203\98\57\74\77","\80\36\42\174\21")):WaitForChild(v7("\111\20\51\74\75\0\39\127\92","\26\46\112\87"));v99=v10:WaitForChild(v7("\156\53\174\122\171\172","\212\217\67\203\20\223\223\37")):WaitForChild(v7("\152\159\173\197\179\131\175","\178\218\237\200"));v97=1 + 0 ;end end end);end end});v24:CreateToggle({[v7("\60\252\56\49","\22\114\157\85\84")]=v7("\229\222\7\203\29\213\164\197\194\30\132\110\247\189\199\206","\200\164\171\115\164\61\150"),[v7("\157\245\15\73\129\191\247\8","\227\222\148\99\37")]=function(v70) _G.AutoClaimSauce=v70;end});v24:CreateSection(v7("\126\31\31\182\212\38\70\83\226\240\60\92\18\208\240\63\70\87\228\234\115\31\31\187","\153\83\50\50\150"));v24:CreateToggle({[v7("\115\119\126\25","\45\61\22\19\124\19\203")]=v7("\239\29\77\216\23\100\184\213\27\2\251\66\56\151\206\0\0\244\14\57","\217\161\114\109\149\98\16"),[v7("\49\53\42\110\185\122\6\22\57\112\169\113","\20\114\64\88\28\220")]=true,[v7("\18\0\222\184\250\209\190\58","\221\81\97\178\212\152\176")]=function(v71) v28[v7("\227\232\19\254","\122\173\135\125\155")]=v71;end});for v73,v74 in ipairs(v27) do v24:CreateToggle({[v7("\170\192\13\188","\168\228\161\96\217\95\81")]=v74   .. v7("\155\253\39\82\42","\55\187\177\78\60\79") ,[v7("\14\219\77\249\67\193\148\27\207\83\254\67","\224\77\174\63\139\38\175")]=true,[v7("\167\64\84\34\134\64\91\37","\78\228\33\56")]=function(v87) v28[v74]=v87;end});end local v32=v9:CreateTab({[v7("\224\127\191\6","\229\174\30\210\99")]=v7("\40\232\138\93","\89\123\141\230\49\141\93"),[v7("\218\114\249\2","\42\147\17\150\108\112")]="💰"});v32:CreateSection(v7("\60\163\33\115\238\230\8\230\2\111\243\225\0\168\62","\136\111\198\77\31\135"));local v33=1;_G.AutoSellSauce=false;v32:CreateInput({[v7("\44\8\170\83","\201\98\105\199\54\221\132\119")]=v7("\152\1\140\52\12\33\236\169\9\145\97\22\60\161\188\76\203\112\79\96\229","\204\217\108\227\65\98\85"),[v7("\110\207\244\230\41\200\81\207\241\224\62","\160\62\163\149\133\76")]="1",[v7("\228\165\0\32\213\211\148\8\55\215\247\166\25\42\209\240\175\14\58\208\250\175\30\59","\163\182\192\109\79")]=false,[v7("\23\39\12\204\247\53\37\11","\149\84\70\96\160")]=function(v75) local v76=0;local v77;while true do if (v76==(1162 -(171 + 991))) then v77=tonumber(v75);if v77 then v33=math.clamp(v77,4 -3 ,13 -8 );end break;end end end});v32:CreateToggle({[v7("\22\7\0\232","\141\88\102\109")]=v7("\146\70\222\127\90\14\80\205\191","\161\211\51\170\16\122\93\53"),[v7("\216\175\190\36\249\175\177\35","\72\155\206\210")]=function(v78) local v79=0;while true do if (v79==(0 -0)) then _G.AutoSellSauce=v78;if _G.AutoSellSauce then task.spawn(function() local v109=0 + 0 ;local v110;local v111;while true do if (v109==(3 -2)) then while _G.AutoSellSauce do local v135=0 -0 ;local v136;local v137;while true do if (v135==1) then if (v136 and ( #v137>(0 -0))) then local v149=0 -0 ;for v151,v152 in ipairs(v136:GetChildren()) do if ((v149>=v33) or  not _G.AutoSellSauce) then break;end local v153=v152:GetAttribute(v7("\46\16\70\212\173\103\136\3\54\86","\235\102\127\50\167\204\18"));if v153 then local v155=v137[v149 + (1249 -(111 + 1137)) ] or v137[159 -(91 + 67) ] ;if v155 then local v157=0 -0 ;local v158;while true do if (v157==(0 + 0)) then v158=523 -(423 + 100) ;while true do if (v158==(1 + 0)) then task.wait(0.1);break;end if (v158==(0 -0)) then v110:InvokeServer(v155,v153);v149=v149 + 1 + 0 ;v158=772 -(326 + 445) ;end end break;end end end end end end task.wait(0.5);break;end if (v135==0) then v136=v13:FindFirstChild(v7("\34\114\1\116\91\15\137\11","\234\96\19\98\31\43\110"));v137=v111:GetChildren();v135=1;end end end break;end if (v109==(0 -0)) then v110=v10:WaitForChild(v7("\99\108\81\0\39\85","\83\38\26\52\110")):WaitForChild(v7("\107\18\43\74\81\25\32","\38\56\119\71")):WaitForChild(v7("\195\227\89\213\32\126\252\251\75\215\48\85\246","\54\147\143\56\182\69"));v111=workspace:WaitForChild(v7("\230\141\254\80\218\196\173\240\93\204","\191\182\225\159\41")):WaitForChild(v13.Name):WaitForChild(v7("\2\31\56\90\153\147\195\37\6","\162\75\114\72\53\235\231")):WaitForChild(v7("\191\57\72\238\90\12\139","\98\236\92\36\130\51")):WaitForChild(v7("\148\21\13\185\64\165\176\62\176\10","\80\196\121\108\218\37\200\213"));v109=1;end end end);end break;end end end});local v34=v9:CreateTab({[v7("\126\160\248\38","\78\48\193\149\67\36")]=v7("\3\27\148\12\72\62\25","\33\80\126\224\120"),[v7("\197\171\12\202","\60\140\200\99\164")]="⚙️"});local v35=v7("\143\224\16\54\177\221\187\75\34\171\148\247\11\52\166\201\243\3\105\166\164\250\61\39\147\141\211\87","\194\231\148\100\70");v34:CreateSection(v7("\117\67\194\170\247\196\85","\168\38\44\161\195\150"));v34:CreateToggle({[v7("\174\253\143\115","\118\224\156\226\22\80\136\214")]=v7("\104\225\80\142\2\195\64\192\70\231\74\131\77\252\93","\224\34\142\57"),[v7("\253\166\201\209\113\240\94\5","\110\190\199\165\189\19\145\61")]=function(v80) if v80 then if setclipboard then setclipboard(v35);elseif toclipboard then toclipboard(v35);end end end});v34:CreateSection(v7("\247\238\121\253\203\228\213\229\113\225\140","\167\186\139\23\136\235"));v34:CreateToggle({[v7("\52\180\133\8","\109\122\213\232")]=v7("\219\249\174\63\239\243\226\5\199","\80\142\151\194"),[v7("\32\199\123\64\1\199\116\71","\44\99\166\23")]=function(v81) if v81 then if v23 then v23:Disconnect();end end end});if setclipboard then setclipboard(v35);elseif toclipboard then toclipboard(v35);end
+local PremiumLib = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/loffy327/Mainscript/refs/heads/main/Lib2.lua"
+))()
+
+local Window = PremiumLib:CreateWindow({
+    Title        = "Loffy Hub - Make HotSauce [Beta] ",
+    TutorialMode = false,
+    AccentColor  = Color3.fromRGB(99, 102, 241),
+})
+
+-- Services
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local LocalPlayer = Players.LocalPlayer
+
+-- Complete seed list
+local SeedOptions = {
+    "Eclipse Seed", "Lunar Seed", "Meteor Seed", "Dark Matter Seed", 
+    "Nebula Seed", "Deadly Seed", "Surge Seed", "Wildfire Seed", 
+    "Inferno Seed", "Secret Seed", "Liberty Seed", "Unholy Seed", 
+    "Painful Seed", "Tame Seed", "Spicy Seed"
+}
+
+local SelectedSeeds = {}
+for _, seedName in ipairs(SeedOptions) do
+    SelectedSeeds[seedName] = false
+end
+
+local SeedMachineFolder = workspace:WaitForChild("PlayerLots"):WaitForChild(LocalPlayer.Name):WaitForChild("Important"):WaitForChild("SeedMachine") 
+local RollEvent = ReplicatedStorage:WaitForChild("Events"):WaitForChild("SeedMachine"):WaitForChild("SpawnSeed")
+local BuyEvent = ReplicatedStorage:WaitForChild("Events"):WaitForChild("SeedMachine"):WaitForChild("PickupSeed")
+
+local function checkAndBuySeed(Item)
+    if Item:IsA("Model") then
+        local actualSeedName = Item:GetAttribute("SeedName") or Item:GetAttribute("ItemType") or Item.Name
+        if SelectedSeeds[actualSeedName] == true or SelectedSeeds[Item.Name] == true then
+            BuyEvent:FireServer()
+        end
+    end
+end
+
+local function isPepperInMyPlot(object)
+    local path = object:GetFullName()
+    if string.find(path, LocalPlayer.Name) or string.find(path, tostring(LocalPlayer.UserId)) then
+        return true
+    end
+    
+    local current = object.Parent
+    while current and current ~= workspace do
+        if string.find(string.lower(current.Name), "garden") or string.find(string.lower(current.Name), "plot") or string.find(string.lower(current.Name), "crop") then
+            if string.find(current.Name, LocalPlayer.Name) then
+                return true
+            end
+        end
+        current = current.Parent
+    end
+    return false
+end
+
+-- ==================== MAIN TAB ====================
+local Tab = Window:CreateTab({ Name = "Main", Icon = "⚡" })
+Tab:CreateSection("Automation Controls")
+
+-- 1. Auto Roll Seed Toggle
+_G.AutoRollSeed = false
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+
+-- Camera lock state
+local lockedCFrame = nil
+local initialLockedCFrame = nil
+local lockedFocusPos = nil
+local lockedFOV = nil
+local zoomConnection = nil
+local disabledConnections = {}
+
+Tab:CreateToggle({ 
+    Name = "Auto Roll Seed", 
+    Callback = function(Value) 
+        _G.AutoRollSeed = Value
+        
+        if _G.AutoRollSeed then
+            -- === SAVE CAMERA STATE ===
+            local cam = workspace.CurrentCamera
+            lockedCFrame = cam.CFrame
+            initialLockedCFrame = cam.CFrame
+            lockedFocusPos = cam.Focus.Position
+            lockedFOV = cam.FieldOfView
+            
+            -- ============================================================
+            -- METHOD: Kill the animation at its SOURCE using getconnections
+            -- Instead of fighting camera changes, we PREVENT them from happening
+            -- by disabling the game's event handlers that trigger the animation
+            -- ============================================================
+            disabledConnections = {}
+            
+            -- Disable all OnClientEvent handlers on the SpawnSeed remote
+            pcall(function()
+                for _, conn in pairs(getconnections(RollEvent.OnClientEvent)) do
+                    conn:Disable()
+                    table.insert(disabledConnections, conn)
+                end
+            end)
+            
+            -- Also try to find and disable camera-related BindToRenderStep/RenderStepped
+            pcall(function()
+                for _, conn in pairs(getconnections(cam:GetPropertyChangedSignal("CFrame"))) do
+                    conn:Disable()
+                    table.insert(disabledConnections, conn)
+                end
+            end)
+            pcall(function()
+                for _, conn in pairs(getconnections(cam:GetPropertyChangedSignal("CameraType"))) do
+                    conn:Disable()
+                    table.insert(disabledConnections, conn)
+                end
+            end)
+            
+            -- Set camera to Scriptable
+            cam.CameraType = Enum.CameraType.Scriptable
+            cam.CameraSubject = nil
+            
+            -- Tight render loop: lock CFrame + FOV every single frame
+            task.spawn(function()
+                while _G.AutoRollSeed do
+                    local c = workspace.CurrentCamera
+                    if lockedCFrame then
+                        c.CFrame = lockedCFrame
+                        c.FieldOfView = lockedFOV
+                        c.CameraType = Enum.CameraType.Scriptable
+                    end
+                    RunService.RenderStepped:Wait()
+                end
+                -- Restore when loop ends
+                local c = workspace.CurrentCamera
+                c.CameraType = Enum.CameraType.Custom
+                if initialLockedCFrame then
+                    c.CFrame = initialLockedCFrame
+                end
+                c.CameraSubject = LocalPlayer.Character and LocalPlayer.Character:FindFirstChild("Humanoid")
+                c.FieldOfView = 70
+            end)
+            
+            -- Allow user to zoom in/out with mouse wheel
+            if zoomConnection then zoomConnection:Disconnect() end
+            zoomConnection = UserInputService.InputChanged:Connect(function(input, gameProcessed)
+                if not _G.AutoRollSeed or not lockedCFrame or not lockedFocusPos then return end
+                if input.UserInputType == Enum.UserInputType.MouseWheel then
+                    local direction = (lockedCFrame.Position - lockedFocusPos).Unit
+                    local currentDist = (lockedCFrame.Position - lockedFocusPos).Magnitude
+                    local zoomDelta = input.Position.Z * 3
+                    local newDist = math.clamp(currentDist - zoomDelta, 2, 200)
+                    local newPos = lockedFocusPos + direction * newDist
+                    
+                    local rotation = lockedCFrame - lockedCFrame.Position
+                    lockedCFrame = rotation + newPos
+                end
+            end)
+            
+            -- Auto roll loop
+            task.spawn(function()
+                while _G.AutoRollSeed do
+                    RollEvent:FireServer()
+                    task.wait(0.05)
+                end
+            end)
+        else
+            -- === UNLOCK ===
+            -- Re-enable all disabled game connections
+            for _, conn in pairs(disabledConnections) do
+                pcall(function() conn:Enable() end)
+            end
+            disabledConnections = {}
+            
+            -- Disconnect zoom
+            if zoomConnection then
+                zoomConnection:Disconnect()
+                zoomConnection = nil
+            end
+            
+            -- Note: c.CFrame is restored in the while loop task.spawn above
+            
+            lockedCFrame = nil
+            lockedFocusPos = nil
+            lockedFOV = nil
+            -- Don't set initialLockedCFrame = nil yet because the render loop might need it right after this runs
+            task.delay(0.1, function() initialLockedCFrame = nil end)
+        end
+    end 
+})
+
+-- 2. Auto Buy Toggle
+_G.AutoBuySeed = false
+local BuyConnection = nil
+
+Tab:CreateToggle({
+    Name = "Auto Buy Filtered",
+    Callback = function(Value)
+        _G.AutoBuySeed = Value
+        
+        if _G.AutoBuySeed then
+            if BuyConnection then BuyConnection:Disconnect() end
+            
+            BuyConnection = SeedMachineFolder.ChildAdded:Connect(function(Item)
+                if _G.AutoBuySeed then
+                    checkAndBuySeed(Item)
+                end
+            end)
+            
+            task.spawn(function()
+                for _, Item in ipairs(SeedMachineFolder:GetChildren()) do
+                    if not _G.AutoBuySeed then break end
+                    checkAndBuySeed(Item)
+                end
+            end)
+        else
+            if BuyConnection then
+                BuyConnection:Disconnect()
+                BuyConnection = nil
+            end
+        end
+    end
+})
+
+-- 3. Auto Pick Up
+_G.AutoPickPepper = false
+Tab:CreateToggle({
+    Name = "Auto Pick Up",
+    Callback = function(Value)
+        _G.AutoPickPepper = Value
+        if _G.AutoPickPepper then
+            task.spawn(function()
+                local PickEvent = ReplicatedStorage:WaitForChild("Events"):WaitForChild("Pepper"):WaitForChild("PickupPepper")
+                
+                while _G.AutoPickPepper do
+                    local peppersFound = 0
+                    
+                    for _, Object in ipairs(workspace:GetDescendants()) do
+                        if not _G.AutoPickPepper then break end
+                        
+                        if string.lower(Object.Name) == "pepper" and (Object:IsA("Model") or Object:IsA("BasePart")) then
+                            if isPepperInMyPlot(Object) then
+                                peppersFound = peppersFound + 1
+                                
+                                task.spawn(function()
+                                    PickEvent:InvokeServer(Object)
+                                end)
+                                
+                                task.wait(0.05)
+                            end
+                        end
+                    end
+                    
+                    if peppersFound == 0 then
+                        task.wait(0.05)
+                    else
+                        task.wait(0.05)
+                    end
+                end
+            end)
+        end
+    end
+})
+
+Tab:CreateSection("--- Seed Filters ---")
+for _, seedName in ipairs(SeedOptions) do
+    Tab:CreateToggle({
+        Name = seedName,
+        Callback = function(Value)
+            SelectedSeeds[seedName] = Value
+        end
+    })
+end
+
+-- ==================== BREWING TAB ====================
+local BrewTab = Window:CreateTab({ Name = "Brewing", Icon = "🧪" })
+BrewTab:CreateSection("Brewing Automation")
+
+local PepperAmount = 1
+_G.AutoAddPepper = false
+_G.AutoClaimSauce = true
+
+-- === Mutation Setup ===
+-- Load available mutations from ReplicatedStorage.Assets.Mutations
+local MutationsFolder = ReplicatedStorage:WaitForChild("Assets"):WaitForChild("Mutations")
+local MutationOptions = {} -- List of mutation names (e.g. "Solar", "Lunar", ...)
+local SelectedMutations = {} -- Filter: which mutations are allowed
+
+for _, mutation in ipairs(MutationsFolder:GetChildren()) do
+    table.insert(MutationOptions, mutation.Name)
+    SelectedMutations[mutation.Name] = true -- All enabled by default
+end
+-- "None" represents peppers with no mutation
+SelectedMutations["None"] = true
+
+-- Detect the mutation of a pepper tool in the backpack
+local function GetPepperMutation(Item)
+    -- Method 1: Check common attribute names
+    for _, attrName in ipairs({"Mutation", "MutationName", "Variant", "MutationType", "Line"}) do
+        local val = Item:GetAttribute(attrName)
+        if val and typeof(val) == "string" and val ~= "" then
+            return val
+        end
+    end
+    
+    -- Method 2: Check StringValue children
+    for _, child in ipairs(Item:GetChildren()) do
+        if child:IsA("StringValue") then
+            if string.find(string.lower(child.Name), "mutation") or string.find(string.lower(child.Name), "variant") or string.find(string.lower(child.Name), "line") then
+                if child.Value ~= "" then
+                    return child.Value
+                end
+            end
+        end
+    end
+    
+    -- Method 3: Check Handle's children for mutation info
+    local Handle = Item:FindFirstChild("Handle")
+    if Handle then
+        for _, child in ipairs(Handle:GetChildren()) do
+            if child:IsA("StringValue") and child.Value ~= "" then
+                -- Check if this value matches any known mutation
+                for _, mutRef in ipairs(MutationsFolder:GetChildren()) do
+                    if child.Value == mutRef.Name then
+                        return child.Value
+                    end
+                end
+            end
+        end
+    end
+    
+    -- Method 4: Check ALL attributes for values matching known mutation names
+    pcall(function()
+        local attrs = Item:GetAttributes()
+        for _, attrValue in pairs(attrs) do
+            if typeof(attrValue) == "string" and attrValue ~= "" then
+                for _, mutRef in ipairs(MutationsFolder:GetChildren()) do
+                    if attrValue == mutRef.Name then
+                        return attrValue
+                    end
+                end
+            end
+        end
+    end)
+    
+    -- Method 5: Check item name for known mutation names
+    for _, mutRef in ipairs(MutationsFolder:GetChildren()) do
+        if string.find(Item.Name, mutRef.Name) then
+            return mutRef.Name
+        end
+    end
+    
+    return nil
+end
+
+-- Get the heat level of a pepper tool using multiple detection methods
+local function GetPepperHeat(Item)
+    -- Method 1: Check attributes (most reliable)
+    for _, attrName in ipairs({"Heat", "HeatLevel", "SHU", "PepperHeat", "Scoville"}) do
+        local val = Item:GetAttribute(attrName)
+        if val and tonumber(val) then
+            return tonumber(val)
+        end
+    end
+    
+    -- Method 2: Check for NumberValue / IntValue children named Heat
+    for _, child in ipairs(Item:GetChildren()) do
+        if (child:IsA("NumberValue") or child:IsA("IntValue")) then
+            if string.find(string.lower(child.Name), "heat") or string.find(string.lower(child.Name), "shu") then
+                return child.Value
+            end
+        end
+    end
+    
+    -- Method 3: Search ALL descendant TextLabels for heat text
+    for _, desc in ipairs(Item:GetDescendants()) do
+        if desc:IsA("TextLabel") or desc:IsA("TextButton") then
+            local text = desc.Text or ""
+            local numStr = string.gsub(text, ",", "")
+            local num, suffix = string.match(numStr, "([%d%.]+)([KkMm]?)")
+            if num then
+                local value = tonumber(num)
+                if value then
+                    if suffix == "K" or suffix == "k" then
+                        value = value * 1000
+                    elseif suffix == "M" or suffix == "m" then
+                        value = value * 1000000
+                    end
+                    if value > 0 then
+                        return value
+                    end
+                end
+            end
+        end
+    end
+    
+    return 0
+end
+
+-- Find the base pepper name by matching against ReplicatedStorage.Peppers
+local PeppersFolder = ReplicatedStorage:WaitForChild("Peppers")
+
+local function GetBasePepperName(Item)
+    -- Direct match
+    if PeppersFolder:FindFirstChild(Item.Name) then
+        return Item.Name
+    end
+    
+    -- Partial match: check if any pepper name is contained in the item name
+    for _, pepperRef in ipairs(PeppersFolder:GetChildren()) do
+        if string.find(Item.Name, pepperRef.Name, 1, true) then
+            return pepperRef.Name
+        end
+    end
+    
+    -- Check "PepperName" or "ItemType" attribute
+    local pepperAttr = Item:GetAttribute("PepperName") or Item:GetAttribute("ItemType") or Item:GetAttribute("PepperType")
+    if pepperAttr and PeppersFolder:FindFirstChild(pepperAttr) then
+        return pepperAttr
+    end
+    
+    return nil
+end
+
+-- Collect all peppers from backpack, sort by Heat descending, include mutation info
+local function GetSortedPeppers()
+    local Backpack = LocalPlayer:FindFirstChild("Backpack")
+    if not Backpack then return {} end
+
+    local validPeppers = {}
+
+    for _, Item in ipairs(Backpack:GetChildren()) do
+        local baseName = GetBasePepperName(Item)
+        
+        if baseName then
+            local currentHeat = GetPepperHeat(Item)
+            
+            -- Detect mutation line
+            local mutation = GetPepperMutation(Item)
+            
+            -- Fallback: if no mutation found, see if the item name contains extra words
+            if not mutation and Item.Name ~= baseName then
+                -- Extract whatever is in the item name that IS NOT the base name
+                local leftover = string.gsub(Item.Name, baseName, "")
+                -- Trim whitespace
+                leftover = string.gsub(leftover, "^%s*(.-)%s*$", "%1")
+                if leftover ~= "" then
+                    -- Special case: ignore generic words if they appear
+                    if leftover ~= "Pepper" and leftover ~= "Seed" then
+                        mutation = leftover
+                    end
+                end
+            end
+            
+            local mutationKey = mutation or "None"
+            
+            -- Check mutation filter (unknown mutations are auto-allowed)
+            local allowed = true
+            if SelectedMutations[mutationKey] ~= nil then
+                -- Known mutation or "None" → respect the toggle
+                allowed = SelectedMutations[mutationKey]
+            end
+            -- If mutationKey is not in SelectedMutations at all, it's unknown → allow it
+            
+            if allowed then
+                -- Build the full name: "BasePepperName|Mutation" or just "BasePepperName"
+                local fullName = baseName
+                if mutation then
+                    fullName = baseName .. "|" .. mutation
+                end
+                
+                table.insert(validPeppers, {
+                    Name = baseName,
+                    Mutation = mutation,
+                    MutationKey = mutationKey,
+                    FullName = fullName,
+                    Heat = currentHeat
+                })
+            end
+        end
+    end
+    
+    -- Sort by Heat: Highest → Lowest
+    table.sort(validPeppers, function(a, b)
+        return a.Heat > b.Heat
+    end)
+    
+    return validPeppers
+end
+
+BrewTab:CreateInput({
+    Name = "Amount to Add (1-1000)",
+    Placeholder = "1",
+    RemoveTextAfterFocusLost = false,
+    Callback = function(Text)
+        local num = tonumber(Text)
+        if num then
+            PepperAmount = math.clamp(num, 1, 1000)
+        end
+    end,
+})
+
+BrewTab:CreateToggle({
+    Name = "Auto Add Peppers",
+    Callback = function(Value)
+        _G.AutoAddPepper = Value
+        if _G.AutoAddPepper then
+            task.spawn(function()
+                local AddPepperEvent = ReplicatedStorage:WaitForChild("Events"):WaitForChild("Brewing"):WaitForChild("AddPepper")
+                local BrewEventsFolder = ReplicatedStorage:WaitForChild("Events"):WaitForChild("Brewing")
+                local BrewEvent = BrewEventsFolder:WaitForChild("Brew")
+                local ClaimEvent = BrewEventsFolder:WaitForChild("ClaimHotsauce")
+                
+                while _G.AutoAddPepper do
+                    -- === PHASE 1: Get ALL peppers sorted by heat (highest → lowest) ===
+                    -- Fetch once per cycle, then iterate in order
+                    local sortedPeppers = GetSortedPeppers()
+                    local currentBatchAdded = 0
+                    local pepperIndex = 1
+                    
+                    -- Add peppers in order: highest heat first → lowest heat
+                    while _G.AutoAddPepper and currentBatchAdded < PepperAmount do
+                        if pepperIndex <= #sortedPeppers then
+                            -- Take the next pepper in heat order (highest first)
+                            local pepper = sortedPeppers[pepperIndex]
+                            AddPepperEvent:InvokeServer(false, pepper.FullName)
+                            currentBatchAdded = currentBatchAdded + 1
+                            pepperIndex = pepperIndex + 1
+                            task.wait(0.05)
+                        else
+                            -- Ran out of peppers in the list, re-fetch fresh list
+                            -- (new peppers may have been picked up since last fetch)
+                            task.wait(0.05)
+                            sortedPeppers = GetSortedPeppers()
+                            pepperIndex = 1
+                            
+                            if #sortedPeppers == 0 then
+                                -- Still no peppers, keep waiting
+                                task.wait(0.05)
+                            end
+                        end
+                    end
+                    
+                    -- === PHASE 2: Amount reached — decide whether to claim ===
+                    if not _G.AutoAddPepper then break end
+                    
+                    if _G.AutoClaimSauce then
+                        -- Auto Claim is ON → Brew + Claim → then loop back to add next batch
+                        BrewEvent:InvokeServer()
+                        task.wait(0.05)
+                        ClaimEvent:FireServer()
+                        task.wait(0.05)
+                        -- Loop continues → fresh GetSortedPeppers() at top of next cycle
+                    else
+                        -- Auto Claim is OFF → Stop completely, wait for user to claim manually
+                        _G.AutoAddPepper = false
+                        break
+                    end
+                end
+            end)
+        end
+    end
+})
+-- ==================== SELL TAB ====================
+local SellTab = Window:CreateTab({ Name = "Sell", Icon = "💰" })
+SellTab:CreateSection("Selling Options")
+
+local SellAmountPerBatch = 1
+_G.AutoSellSauce = false
+
+SellTab:CreateInput({
+    Name = "Amount per time (1-5)",
+    Placeholder = "1",
+    RemoveTextAfterFocusLost = false,
+    Callback = function(Text)
+        local num = tonumber(Text)
+        if num then
+            SellAmountPerBatch = math.clamp(num, 1, 5)
+        end
+    end,
+})
+
+SellTab:CreateToggle({
+    Name = "Auto Sell",
+    Callback = function(Value)
+        _G.AutoSellSauce = Value
+        if _G.AutoSellSauce then
+            task.spawn(function()
+                local SellEvent = ReplicatedStorage:WaitForChild("Events"):WaitForChild("Selling"):WaitForChild("PlaceHotsauce")
+                local PlacementFolder = workspace:WaitForChild("PlayerLots"):WaitForChild(LocalPlayer.Name):WaitForChild("Important"):WaitForChild("Selling"):WaitForChild("Placements")
+                
+                while _G.AutoSellSauce do
+                    local Backpack = LocalPlayer:FindFirstChild("Backpack")
+                    local PlacementsList = PlacementFolder:GetChildren()
+                    
+                    if Backpack and #PlacementsList > 0 then
+                        local itemsSentThisBatch = 0
+                        
+                        for _, Tool in ipairs(Backpack:GetChildren()) do
+                            if itemsSentThisBatch >= SellAmountPerBatch or not _G.AutoSellSauce then 
+                                break 
+                            end
+                            
+                            local sauceId = Tool:GetAttribute("HotsauceId")
+                            if sauceId then
+                                local targetSlot = PlacementsList[itemsSentThisBatch + 1] or PlacementsList[1]
+                                
+                                if targetSlot then
+                                    SellEvent:InvokeServer(targetSlot, sauceId)
+                                    itemsSentThisBatch = itemsSentThisBatch + 1
+                                    task.wait(0.05)
+                                end
+                            end
+                        end
+                    end
+                    task.wait(0.05)
+                end
+            end)
+        end
+    end
+})
+
+-- ==================== SETTINGS TAB ====================
+local SettingsTab = Window:CreateTab({ Name = "Setting", Icon = "⚙️" })
+local targetLink = "https://discord.gg/dCnYaQjG3"
+
+SettingsTab:CreateSection("Socials")
+SettingsTab:CreateToggle({
+    Name = "Join My discord",
+    Callback = function(Value)
+        if Value then
+            if setclipboard then
+                setclipboard(targetLink)
+            elseif toclipboard then
+                toclipboard(targetLink)
+            end
+        end
+    end
+})
+
+SettingsTab:CreateSection("Menu Config")
+SettingsTab:CreateToggle({
+    Name = "Unload UI",
+    Callback = function(Value)
+        if Value then
+            if BuyConnection then BuyConnection:Disconnect() end
+        end
+    end
+})
+
+-- Background Copy Link
+if setclipboard then
+    setclipboard(targetLink)
+elseif toclipboard then
+    toclipboard(targetLink)
+end
