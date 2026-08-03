@@ -12,13 +12,14 @@ local SupportedGames = {
     },
     [137233438285284] = {
         Main = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Chicken-Farm.lua",
-        Kaitun = "" -- Leave empty if no Kaitun script exists for this game
+        Kaitun = ""
     },
     [122391683154858] = {
         Main = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Make-HotSauce.lua"
     },
     [94735232265626] = {
         Main = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Merge-A-Nuke.lua"
+        Kaitun = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Kaitun-Merge-A-Nuke.lua"
     }
 }
 
