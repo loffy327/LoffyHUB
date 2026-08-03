@@ -17,7 +17,7 @@ local SupportedGames = {
     [122391683154858] = {
         Main = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Make-HotSauce.lua"
     },
-    [128784467030899] = {
+    [94735232265626] = {
         Main = "https://raw.githubusercontent.com/loffy327/LoffyHUB/refs/heads/main/Merge-A-Nuke.lua"
     }
 }
